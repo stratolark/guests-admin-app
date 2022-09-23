@@ -1,0 +1,106 @@
+{
+  "id": "/",
+  "short_name": "Pension Admin",
+  "name": "Pension Admin",
+  "icons": [
+    {
+      "src": "/pension/maskable_icon_x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/pension/maskable_icon.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any"
+    }
+  ],
+  "scope": "/",
+  "orientation": "any",
+  "start_url": "/",
+  "background_color": "#000000",
+  "display": "minimal-ui",
+  "theme_color": "#000000",
+  "shortcuts": [
+    {
+      "name": "Piezas",
+      "short_name": "Piezas",
+      "description": "Ver Información de las Piezas",
+      "url": "/piezas",
+      "icons": [
+        {
+          "src": "/room_maskable_icon.png",
+          "type": "image/png",
+          "sizes": "1024x1024",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Arrendatarios",
+      "short_name": "Arrendatarios",
+      "description": "Ver Información de los Arrendatarios",
+      "url": "/arrendatarios",
+      "icons": [
+        {
+          "src": "/renter_maskable_icon.png",
+          "sizes": "1024x1024",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Finanzas",
+      "short_name": "Finanzas",
+      "description": "Ver Información de los Finanzas",
+      "url": "/finanzas",
+      "icons": [
+        {
+          "src": "/finance_maskable_icon.png",
+          "sizes": "1024x1024",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ],
+  "description": "Administrador de Pension"
+}

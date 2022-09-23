@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#__next main {
+  flex: 1 1 0%;
+}
+
+.btn {
+  @apply btn-primary py-1.5 px-3.5;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600 text-white rounded;
+}
+
+.btn-card {
+  @apply btn-primary pt-3 pb-6 px-4;
+}
+
+.btn-filled {
+  @apply btn-primary py-2 px-4;
+}
+
+.btn-outline {
+  @apply bg-white hover:bg-neutral-50 border-[1px] border-neutral-500 text-black font-medium py-2 px-4 rounded;
+}
+
+.btn-recurrent {
+  @apply btn-primary cursor-pointer my-3 p-4 flex justify-between;
+}
+
+.page-container {
+  @apply pt-3 px-6 pb-6;
+}
+
+.page-title {
+  @apply text-xl font-bold pb-4;
+}
